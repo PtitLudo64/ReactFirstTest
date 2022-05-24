@@ -14,6 +14,9 @@ const Card = ({country}) => {
                 <p>
                     Pop.: {country.population.toLocaleString()}
                 </p>
+                <p>
+                    {country.continents[0]}
+                </p>
             </div>
         </li>
     );
