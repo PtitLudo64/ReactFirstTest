@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Logo from './Logo';
 
 const Navigation = () => {
     return (
@@ -12,6 +13,7 @@ const Navigation = () => {
                     <li>A Propos</li>
                 </NavLink>                
             </ul>
+            <Logo />
         </div>
     );
 };
